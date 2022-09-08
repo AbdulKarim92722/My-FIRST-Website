@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black
+        }
+         
+        .root {
+            background-size: cover;
+            background-image: linear-gradient(0deg, transparent 50%, rgba(0, 0, 0, .5)), radial-gradient(50% 100%, transparent 0, rgba(0, 0, 0, .5) 100%), url(./PK-en-20220829-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg\ 2.jpg);
+            border-bottom-color: 5px solid rgb(192, 14, 14);
+        }
+
+
+        .navbar {
+            height: 10vh;
+            padding-top: 1%;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .img_logo {
+            width: 14%;
+        }
+
+        .button {
+            background-color: #e50914;
+            color: white;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            width: fit-content;
+
+        }
+        .main_container {
+            width: 50%;
+            height: 90vh;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 6rem;
+          
+        }
+        .main_tittle {
+            color: white;
+            font-size: 1.625rem;
+            font-family: Helvetica, Helvetica, Arial, sans-serif;
+            text-align: center;
+        
+        }
+
+        .heading {
+            font-size: 50px;
+        }
+
+        .subtitle {
+            color: #fff; 
+             font-size: 25px;
+             font-family: 'Roboto', sans-serif;
+        }
+
+        .paragraph1{
+            font-size: 20px;
+            font-family: "netflix sans" Helvetica, Helvetica, Arial, sans-serif;
+            font-weight: 400;
+        }
+
+        .container1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 65%;
+
+
+        }
+
+        .main_email {
+            outline: none;
+            border: none;
+            width: 300px;
+            height: 40px;
+            padding: 8px 72px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            border-bottom: 2px solid #ffa00a;
+        }
+
+        .btn {
+
+            height: 40px;
+            width: 40%;
+            font-size: 1.625rem;
+            cursor: pointer;
+            font-family: "netflix sans" Helvetica, Helvetica, Arial, sans-serif;
+            padding: 10px 75px;
+            background-color: #e50914;
+            color: #ffffff;
+            text-transform: capitalize;
+           
+
+        }
+       span{
+        width:100%;
+        height:60%;
+       }
+      .container2{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+
+       }
+    
+       .heading2{
+        color: #fff;
+        font-size: 2.125rem;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-top: 25%;
+        margin-left:20px;
+        margin-bottom:20%;
+        
+       }
+
+      .container3{
+        display: flex;
+        width:80%;
+        height:fit-content;
+      }
+      .heading3{
+        color: #ffffff;
+        font-size: 3.125rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:10%;
+        margin-left: 5%;
+      }
+     
+      .container4{
+        width: 80%;
+        height: fit-content;
+      }
+
+       .heading4{
+        color: #ffffff;
+        font-size: 3.125rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.1;
+        margin-top:20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+}
+ .heading5{
+    color: #ffffff;
+    font-size: 1.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 50%;
+     } 
+        .container5{
+            width:100%;
+            height:fit-content;
+            display: flex;
+            
+           } 
+
+       .heading6{ 
+        color: #ffffff;
+        font-size: 3.125rem;
+        font-family: Arial, Helvetica, sans-serif;
+         line-height: 1.1;
+         margin-left: 5%;
+         margin-top: 18%;
+         
+
+       }
+       .paragraph2{
+        color: #ffffff;
+        font-size: 1.625rem;
+        font-family: Arial, Helvetica, sans-serif;
+          font-weight: 400;
+          text-decoration: none;
+       }
+
+       .container6{
+        width: 100%;
+        height:fit-content;
+        margin-bottom:10%;
+
+       }
+       .heading7{
+        color: #ffffff;
+        font-size: 3.125rem;
+        text-align: center;
+        margin-top: 20%;
+       }
+       input{
+            height: 38px;
+            width: 40%;
+            cursor: pointer;
+             margin-left:28%;
+            font-family: "netflix sans" Helvetica, Helvetica, Arial, sans-serif;
+            padding: 10px 31px;
+            font-size: 1.4em;
+            background-color: #423b3b;
+            color: #ffffff;
+            text-transform: capitalize;
+       }
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="root">
+            <nav class="navbar">
+                <img class="img_logo" src="./580b57fcd9996e24bc43c529.png" alt="logo">
+                <div class="button">Sign in</div>
+            </nav>
+            <div class="main_container">
+                <div class="main_tittle">
+                    <h1 class="heading">Unlimited movies, TV shows, and more.</h1>
+                        <h2 class="subtitle">Watch anywhere. Cancel anytime.</h2>
+                    <h3 class="paragraph1">Ready to watch? Enter your email to create or restart your membership.
+                    </h3>
+                </div>
+                <div class="container1">
+                    <input class="main_email" type="text" placeholder="Email address">
+                    <div class="btn">Get Started</div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <section>
+        <span> 
+            <div class="container2">
+                <p class="heading1"></p>
+                <p class="heading2">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                <img class="main_img" src="./Screenshot 2022-09-07 103814.png" alt="netflix_tv">
+            </div>
+            </span>
+     </section>
+         <section>
+            <div class="container3">
+            <img src="./Screenshot 2022-09-07 103922.png" alt="">
+            <h1 class="heading3">Download your shows to watch offline.</h1>
+         </section>
+         
+         <section>
+            <div class="container4">
+                <h1 class="heading4">Watch everywhere.</h1>
+                <p class="heading5">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+         </section>
+         <section>
+            <span> 
+                <div class="container5">
+                 <img src="./AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="">
+                 <h1 class="heading6">Create profiles for kids.</h1>
+                
+                </span>
+         </section>
+         <section>
+            <div class="container6">
+                <h1 class="heading7">Frequently Asked Questions</h1>
+              <div class="input"> <input type="text" placeholder="What is Netflix?"></div>
+              <div class="input"> <input type="text" placeholder="How much does Netflix cost?"></div>
+              <div class="input"> <input type="text" placeholder="Where can I watch?"></div>
+              <div class="input"> <input type="text" placeholder="How do I cancel?"></div>
+              <div class="input"> <input type="text" placeholder="What can I watch on Netflix?"></div>
+              <div class="input"> <input type="text" placeholder="Is Netflix good for kids?"></div>
+            
+              
+            </div>
+         </section>
+</body>
+
+</html>
